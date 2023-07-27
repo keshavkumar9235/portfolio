@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Keshav's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="Resume.pdf">About</a></li>
+            <li><a href="https://github.com/keshavkumar9235">Services</a></li>
+            <li><a href="https://keshavkumar9235.github.io/Signup-Page/">Form</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="first-section">
+        <div class="leftSection">
+          Hii,My name is <span class="blue">Keshav</span>
+        <div> and i am a</div>
+        <span id="element"></span>
+        <div class="button">
+          <button class="button1"><a href="Resume.pdf" target="_blank">Resume</a></button>          
+          <button class="button2"><a href="https://github.com/keshavkumar9235" target="_blank">Visit Github</a></button>
+          <button class="button3"><a href="mailto:keshavkumar9235@gmail.com">Contact</a></button>
+        </div>
+        </div>
+        <div class="rightSection">
+        <img src="portfolio.jpg" alt="my image">
+        <p>Currently,i am a third year b.tech student.I have a passion in web development and the web developer embraces responsive design principles, ensuring that websites look and function flawlessly on both desktop and mobile devices.
+        As a student exploring web development, the individual is drawn to the prospect of creating innovative web applications and contributing to the digital transformation of various industries.</p>
+        </div>
+       
+      </section>
+      <section class="second-section">
+        <hr>
+        <div class="leftSection2">
+          <h2>Projects</h2>
+        </div>
+        <div class="box">
+          <div class="description1"><a href="https://keshavkumar9235.github.io/Signup-Page/">Signup Page</a>
+            <p>This is a glassmorphic basic sign up page using HTML and CSS.</p>
+            <img src="Signup.png">
+          </div>
+          <div class="description2"><a href=" https://keshavkumar9235.github.io/Calculator/">Calculator</a>
+            <p>This is a basic calculator used by us by using HTML,CSS and JavaScript.</p>
+            <img src="calculator.jpg">
+          </div>
+          <div class="description3"><a href=" https://keshavkumar9235.github.io/CODSOFT/">Landing Page</a>
+            <p>It is basically a web page where visitors lands.It is created by using HTML and CSS.</p>
+            <img src="Landing Page.jpg">
+          </div>
+        </div>
+      </section>
+       <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>C++</li>
+             </ul>
+        </div>
+    </section> 
+    </main>
+    <footer>
+      <div class="footer-rights">
+         Copyright &#169;keshav'sportfolio.com | All Right Reserved
+      </div>
+    </footer>
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['Web developer.',  'Programmer.', 'Learner.'],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
